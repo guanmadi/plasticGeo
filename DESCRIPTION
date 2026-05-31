@@ -12,10 +12,17 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
 Imports: 
-    readr
+    dplyr,
+    ggplot2,
+    hexbin,
+    readr,
+    stringr,
+    tidyr
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
 URL: https://github.com/guanmadi/plasticGeo
 BugReports: https://github.com/guanmadi/plasticGeo/issues
+Config/testthat/edition: 3
