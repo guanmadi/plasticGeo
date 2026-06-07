@@ -4,14 +4,13 @@
 \alias{plot_temp_plastic_hex}
 \title{Plot Temperature and Plastic Collected}
 \usage{
-plot_temp_plastic_hex(data)
-}
-\arguments{
-\item{data}{A data frame with AnnualMeanTemp, grand_total, and Country.}
+plot_temp_plastic_hex()
 }
 \value{
 A ggplot object.
 }
 \description{
-Creates a hexbin plot comparing mean annual temperature and total plastic collected.
+Shows the relationship between mean annual temperature and total
+plastic collected using a hexbin plot of plastic counts, with a fitted linear
+trend line and label of the country with the highest collection total.
 }
